@@ -1,0 +1,35 @@
+# secrets — NEVER commit these
+.env
+credentials.json
+token.json
+*.json.bak
+
+# virtual environment
+.venv/
+
+# database & logs
+data/
+logs/
+*.db
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
